@@ -1,0 +1,25 @@
+# The organizer distributes these files separately. Never publish them here.
+dataset/*
+!dataset/.gitkeep
+
+# Outputs, model predictions, notebooks, and local environments.
+artifacts/
+submissions/
+logs/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Local credentials and environment configuration.
+.env
+.env.*
+!.env.example
+.modal/
+*.pem
+*.key
+*token*
+*secret*
